@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body{
+	font-family: 'Roboto', sans-serif;
+}
+*{
+	background-color: #fff;
+}
+.contenedor{
+	position: relative;
+}
+.table{
+	width: 55%;	
+}
+.contenedor{
+	height: 200px;
+	width: 100%;
+}
+.header #ic{
+	height: 100px;
+	width: 335px;
+	padding: 4px;
+	border-radius: 5px;
+	position: absolute;
+    top: 25%;
+    left: 50%;
+    background-color: rgba(51,51,51,0);
+}
+.header #h1{
+	position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: rgba(51,51,51,0);
+    color: #AAC442;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 70px;
+    margin: 0;
+}
+.header #fondo{
+	height: 200px;
+	width: 100%;
+}
+.contenedor h1{
+	font-size: 20px;
+	margin: 20px;
+}
+#mostrar{
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #DE5246;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+}
+#mostrar:hover{
+	background-color: #B40404;
+	cursor: pointer;
+}
+#listado{
+	margin-top: 120px;
+}
+.footer{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.footer h1{
+	color: #fff;
+	background: -webkit-linear-gradient(top,#58B5BD 0%,#13506C 100%);
+	font-size: 25px;
+	padding: 10px;
+}
+
+.sociales{
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer .icon-facebook:hover{
+	color: #2E2EFE;
+}
+.footer .icon-twitter:hover{
+	color: #2EFEF7;
+}
